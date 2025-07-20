@@ -9,12 +9,15 @@
     margin-left: 50px; /* default for desktop */
   }
 
-  /* Mobile View */
-  @media (max-width: 600px) {
-    .indent {
-      margin-left: 10px;
-    }
+html {
+  font-size: 16px; /* Desktop */
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px; /* Mobile */
   }
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
